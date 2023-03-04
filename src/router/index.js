@@ -6,7 +6,7 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'macd',
+    name: 'rsi',
     component: () => import("@/views/rsi-main.vue")
   }
 ]
