@@ -432,4 +432,8 @@ export default {
 .theme--dark.v-data-table > .v-data-table__wrapper > table > thead > tr > th {
   color: white;
 }
+.v-data-table {
+  background:url(@/assets/watermarked.png) no-repeat; 
+  background-position: center;
+}
 </style>
